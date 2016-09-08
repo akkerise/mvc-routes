@@ -23,7 +23,6 @@ class login_admin_model extends base_model
 
         $hash = $this->stmt->fetch()['user_pass'];
         if ($hash) {
-
             if (password_verify($pass, $hash)) {
                 return true;
             } else {

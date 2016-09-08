@@ -6,7 +6,7 @@
  * Date: 8/9/16
  * Time: 10:17 AM
  */
-class Helper
+class helper
 {
     static function setError($name, $value)
     {

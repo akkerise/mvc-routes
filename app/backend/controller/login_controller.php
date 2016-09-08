@@ -14,8 +14,6 @@ class login_controller extends base_controller
 {
     public function view()
     {
-
-
         if (isset($_SESSION['admin'])) { // kiem tra xem session hay khong?
             header("Location:" . BASE_PATH . "/admin");
         } else {
@@ -44,21 +42,21 @@ class login_controller extends base_controller
             }
 
             if ($flag != 0) {
-
                 header("Location:" . BASE_PATH . "/admin/login");
             } else {
                 $this->loadModel('login_admin');
 //                echo "<pre>"; var_dump($this->model->checkLogin($username,$password)); echo "</pre>"; exit;
+                var_dump($this->model->getIdByName($username)['password']);
                 if ($this->model->checkLogin($username, $password)) {
 //                    Helper::setMes('success', "Đăng nhập thành công");
                     $_SESSION['admin'] = $username;
                     $_SESSION['admin_id'] = $this->model->getIdByName($username)['id'];
                     unset($_SESSION['input']);
 //                    unset($_SESSION['admin_id']);
-                    header("Location:" . BASE_PATH . "/admin ");
+                    // header("Location:" . BASE_PATH . "/admin ");
                 } else {
                     Helper::setError('system', "Tài khoản mật khẩu không  đúng ");
-                    header("Location:" . BASE_PATH . "/admin/login");
+                    // header("Location:" . BASE_PATH . "/admin/login");
                 }
 
 
