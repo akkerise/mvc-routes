@@ -9,7 +9,6 @@
 class login_admin_model extends base_model
 {
     private $table = 'users';
-
     public function checkLogin($user, $pass)
     {
         $sql = " SELECT user_pass FROM " . $this->table . " WHERE user_name = ?";
@@ -20,7 +19,6 @@ class login_admin_model extends base_model
         } catch (PDOException $e) {
             die($e->getMessage());
         }
-
         $hash = $this->stmt->fetch()['user_pass'];
         if ($hash) {
             if (password_verify($pass, $hash)) {
