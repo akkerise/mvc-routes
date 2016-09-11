@@ -55,7 +55,7 @@
 
 
 <!--    <a href="#">I forgot my password</a><br>-->
-    <a href="<?php echo BASE_PATH; ?>/admin/register" class="text-center">Tạo tài khoản thì bấm đây!</a>
+    <a href="<?php echo BASE_PATH; ?>/admin/reg" class="text-center">Tạo tài khoản thì bấm đây!</a>
 
   </div>
   <!-- /.login-box-body -->

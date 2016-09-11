@@ -1,11 +1,4 @@
 <?php 
-
-
-
-
-
-
-
 	class log_admin_model extends base_model {
 		private $table = 'users';
 
@@ -18,6 +11,7 @@
 			}catch(PDOException $e){
 				die($e->getMessage());
 			}
+			
 			$hash = $this->stmt->fetch()['user_pass'];
 
 			if ($hash) {

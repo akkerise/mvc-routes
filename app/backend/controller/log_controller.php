@@ -32,29 +32,27 @@
 						helper::setError('ErrPass','Sai Định Dạng Password');
 						// echo "1";
 					}
-					// echo "1";
-					// 
+
 					if (!empty($error)) {
 						helper::setError('Err','Còn Lỗi Username hoặc Password');
 					}else{
-						
 						$this->loadModel('log_admin');
 						// echo "1";
 						var_dump($this->model->checkLog($username,$password));
 						if ($this->model->checkLog($username,$password)) {
-							echo "Đăng Nhập Thành Công";
-							$_SESSION['admin'] = $username;
-		                    $_SESSION['admin_id'] = $this->model->getIdByName($username)['id'];
-		                    unset($_SESSION['input']);
+							// echo "Đăng Nhập Thành Công";
+							// $_SESSION['admin'] = $username;
+		     //                $_SESSION['admin_id'] = $this->model->getIdByName($username)['id'];
+		     //                unset($_SESSION['input']);
 		                    // header("Location:" . BASE_PATH . "/admin ");
 		                    // echo "1";
 						}else{
-							helper::setError('ErrLog','Lỗi Đăng Nhập Do Không Có Tài Khoản Và Password');
+							helper::setError('ErrLog','Lỗi Đăng Nhập Do Không Có Username Và Password');
 							// header('location'.BASE_PATH.'/admin/log');
-							echo "1";
+							echo "Đây là lỗi không có Username và Password";
 						}
 					}
-
+					
 				}else{
 					header('location'.BASE_PATH.'/admin/log');
 				}
