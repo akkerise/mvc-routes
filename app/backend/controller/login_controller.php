@@ -25,12 +25,13 @@ class login_controller extends base_controller
     public function check()
     {
         if (isset($_POST['username']) && isset($_POST['password'])) {
-
-
             $username = $_POST['username'];
             $password = $_POST['password'];
+
+
             Helper::oldInputLogin($username, $password);
             $flag = 0;
+
 
             if (!Validation::isValidUser($username)) {
                 Helper::setError('username', " Chỉ nhận 5->17 kí tự thôi");
@@ -61,8 +62,6 @@ class login_controller extends base_controller
 
 
             }
-
-
         } else {
 
             header("Location:" . BASE_PATH . "/admin/login");
