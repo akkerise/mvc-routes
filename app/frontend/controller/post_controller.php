@@ -11,11 +11,13 @@ class post_controller extends base_controller
     public function view($param = null)
     {
         if (empty($param)) {
-            $this->loadView('post');
+            $this->loadModel('post');
+            $data = $this->model->getAllData();
+            $this->loadView('post',array(
+                    'data' => $data
+                ));
         } else {
-
             // xu ly o cho co param truoc nha
-
             $this->loadModel('post');
             // this->model la mot object cua post_model
 
@@ -33,5 +35,8 @@ class post_controller extends base_controller
     {
 //        $this->loadView
     }
+    // public function post($id){
+    //     $this->loadView('d')
+    // }
 
 }
