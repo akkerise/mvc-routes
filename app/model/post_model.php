@@ -38,11 +38,42 @@ class post_model extends base_model
         } catch (PDOException $e) {
             die($e->getMessage());
         }
-        // return $this->stmt->fetchAll();
-        $total_records = count(fetchAll()['title']);
-        $total_page = ceil($total_records/$limit);
-        if ($current_page) {
-            # code...
+        return $this->stmt->fetchAll();
+        $records = count(fetchAll()['title']);
+        if ($records > $limit) {
+            $page = ceil($records/$limit);
+        }else{
+            $page = 1;
         }
+        $current = ($start/$display)+1;  // Trang hiện tại = ( số dòng bắt đầu / số dòng hiển thị ) + 1
+        $next = $start + $display;  // Trang tiếp theo =  số dòng bắt đầu + số dòng hiển thị
+        $previous = $start - $display; // Trang sau = số dòng bắt đầu  - số dòng hiển thị
+        $last = ($page - 1)*$display; // Trang cuối = ( tổng số trang – 1 ) * số dòng hiển thị
+    }
+
+    public function getDataByPage($page = 1)
+    {
+        $limit = 5;
+        $sql  = "SELECT count(posts.id) FROM posts LIMIT" . ($page - 1)*$limit . "," . $limit;
+        try {
+            $this->stmt = $this->conn->prepare($sql);
+            $this->stmt->execute();
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
+        return $this->stmt->fetchAll();
+    }
+
+    public function getCountPost()
+    {
+        $sql = "SELECT count(*) FROM posts";
+        try {
+            $this->stmt = $this->conn->prepare($sql);
+            $this->stmt->execute();
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
+
+        return $this->stmt->fetch();
     }
 }
