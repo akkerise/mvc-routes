@@ -29,7 +29,7 @@
                                  class="img-circle" alt="User Image">
 
                             <p>
-                                Nghĩa Thân - Web Developer
+                                Thanh - Web Developer
                                 <small>Member since Nov. 1993</small>
                             </p>
                         </li>

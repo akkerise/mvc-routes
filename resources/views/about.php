@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="page-heading">
-                    <h1>Giới thiệu về anh Nghĩa á!</h1>
+                    <h1>Giới thiệu</h1>
                     <hr class="small">
-                    <span class="subheading">Ngay dưới nhé.</span>
+                    <span class="subheading">Cuộn xuống dưới !</span>
                 </div>
             </div>
         </div>
@@ -18,18 +18,9 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p>Nghĩa trang liệt sỹ Trường Sơn tọa lạc trên khu đồi Bến Tắt, cạnh đường quốc lộ 15, thuộc địa phận xã
-                Vĩnh Trường, huyện Gio Linh; cách trung tâm tỉnh lỵ (thị xã Đông Hà) khoảng 38km về phía Tây bắc; cách
-                quốc lộ 1A (ở đoạn thị trấn huyện lỵ Gio Linh) chừng hơn 20km về phía Tây bắc.
-            </p>
-            <p>Sau ngày đất nước thống nhất, Trung ương Đảng và Bộ Quốc phòng đã phê chuẩn dự án xây dựng nghĩa trang
-                liệt sỹ Trường Sơn tại địa bàn tỉnh Quảng Trị làm nơi tưởng niệm, tôn vinh những người con thân yêu của
-                tổ quốc đã anh dũng hy sinh xương máu của mình trên các nẻo đường Trường Sơn vì sự nghiệp giải phóng dân
-                tộc. Nghĩa trang được khởi công xây dựng vào ngày 24/10/1975 và hoàn thành vào ngày 10/4/1977. Chỉ huy
-                xây dựng là Bộ tư lệnh sư đoàn 559 với sự tham gia của hơn 40 đơn vị bộ đội chủ lực và bộ đội địa
-                phương.
-            </p>
-            <p> Ngoài ra còn có tổ công nhân chuyên khắc chữ vào bia đá xã Hoà Hải, huyện Hòa Vang, tỉnh Quảng Nam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi vero quam recusandae placeat aperiam repudiandae, sint nisi optio deserunt numquam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis consequatur cumque enim commodi. Ipsa eligendi soluta suscipit voluptatem. Earum eligendi excepturi, aliquid aut consectetur harum ipsam reiciendis incidunt nobis cum, tempore doloribus sit blanditiis, dolor culpa dolorum odio eaque! Sunt tenetur aliquam sapiente maxime odio non quasi ea aspernatur optio autem quidem distinctio minima ducimus nisi velit eveniet officiis neque error rerum quis hic natus, veniam sequi! Repudiandae quam, cum assumenda dicta non ex odit in, aut eaque voluptatem, dolorem quisquam debitis tempora a optio. Dignissimos molestias, suscipit blanditiis harum vel eos. Dolorem laboriosam placeat, sed, ducimus beatae mollitia esse.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nostrum magnam laborum deserunt? Eaque odio beatae omnis necessitatibus voluptatum minus facere, repellat perferendis quos earum deleniti natus laboriosam id illo.</p>
         </div>
     </div>
 </div>

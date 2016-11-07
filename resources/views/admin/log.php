@@ -3,7 +3,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?php echo BASE_PATH ; ?>"><b>Nghia</b>' Blog</a>
+    <a href="<?php echo BASE_PATH ; ?>"><b>Thanh</b>' Blog</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">

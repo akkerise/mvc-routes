@@ -50,7 +50,7 @@ class post_model extends base_model
         $sql  = "SELECT posts.*, users.user_name , categories.category_name FROM posts
         INNER JOIN users ON posts.user_ID = users.id
         INNER JOIN categories ON posts.category_ID = categories.id
-        ORDER BY posts.id ASC LIMIT " . ($page-1)*$limit . "," . $limit;
+        ORDER BY posts.id DESC LIMIT " . ($page-1)*$limit . "," . $limit;
         try {
             $this->stmt = $this->conn->prepare($sql);
             $this->stmt->execute();

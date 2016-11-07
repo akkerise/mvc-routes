@@ -3,7 +3,7 @@
     <body class="hold-transition register-page">
     <div class="register-box">
         <div class="register-logo">
-            <a href="<?php echo BASE_PATH; ?>"><b>Nghia's</b> Blog</a>
+            <a href="<?php echo BASE_PATH; ?>"><b>Thanh's</b> Blog</a>
         </div>
 
         <div class="register-box-body">

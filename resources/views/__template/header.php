@@ -42,9 +42,8 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="<?php echo BASE_PATH ?>">Nghia's Blog</a>
+            <a class="navbar-brand" href="<?php echo BASE_PATH ?>">Thanh's Blog</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -54,9 +53,9 @@
                 <li>
                     <a href="<?php echo BASE_PATH ?>/about">About</a>
                 </li>
-                <li>
-                    <a href="<?php echo BASE_PATH ?>/post/1">Sample Post</a>
-                </li>
+                <!-- <li>
+                    <a href="<?php echo BASE_PATH ?>/post/<?php echo $_GET['page']; ?>">Newsest Post</a>
+                </li> -->
                 <li>
                     <a href="<?php echo BASE_PATH ?>/contact">Contact</a>
                 </li>
