@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: akker
- * Date: 11/09/2016
- * Time: 9:40 CH
- */
 class reg_admin_model extends base_model
 {
     private $table = 'users';

@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/17/16
- * Time: 9:49 AM
- */
 class user_admin_model extends base_model
 {
     function getAllUser()

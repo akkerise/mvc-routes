@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Nimo
- * Date: 07/08/2016
- * Time: 10:08 CH
- */
+
 
 //Thong so ve database
 define("DB_TYPE",'mysql');

@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/10/16
- * Time: 10:53 AM
- */
 class login_admin_model extends base_model
 {
     private $table = 'users';

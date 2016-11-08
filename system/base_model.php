@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/8/16
- * Time: 2:53 PM
- */
 abstract class base_model
 {
     protected $conn;

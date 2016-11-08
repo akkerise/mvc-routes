@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/10/16
- * Time: 10:08 AM
- */
 class dashboard_controller extends base_controller
 {
     function view(){

@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/10/16
- * Time: 10:49 AM
- */
-
 //include dirname(PATH_APPLICATION) . "/libs/Validation.php";
 //include dirname(PATH_APPLICATION) . "/libs/Helper.php";
 

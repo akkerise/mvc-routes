@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: akker
- * Date: 11/09/2016
- * Time: 9:17 CH
- */
 include dirname(PATH_APPLICATION) . "/libs/Helper.php";
 include dirname(PATH_APPLICATION) . "/libs/Validation.php";
 class reg_controller extends base_controller

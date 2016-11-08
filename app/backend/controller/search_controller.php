@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/13/16
- * Time: 9:34 AM
- */
 class search_controller extends base_controller
 {
     function view()

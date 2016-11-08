@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/10/16
- * Time: 3:39 PM
- */
 class register_admin_model extends base_model
 {
     function checkExist($username, $email)

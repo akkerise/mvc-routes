@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/17/16
- * Time: 9:17 AM
- */
 class user_controller extends base_controller
 {   //De hien thi ra danh sach nguoi dung
     function view()

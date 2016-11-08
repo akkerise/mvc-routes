@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Nimo
- * Date: 10/08/2016
- * Time: 9:41 CH
- */
-
 
 include dirname(PATH_APPLICATION) . "/libs/Helper.php";
 

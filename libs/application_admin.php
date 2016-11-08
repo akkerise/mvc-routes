@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/10/16
- * Time: 9:19 AM
- */
 class application_admin
 {
     private $controller;

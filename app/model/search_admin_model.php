@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/13/16
- * Time: 10:06 AM
- */
 class search_admin_model extends base_model
 {
     function getDatabyKey($key)

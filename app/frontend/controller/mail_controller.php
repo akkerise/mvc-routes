@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/11/16
- * Time: 10:14 AM
- */
 require dirname(PATH_APPLICATION) . "/libs/PHPMailer/PHPMailerAutoload.php";
 
 class mail_controller extends base_controller

@@ -1,11 +1,4 @@
 <?php
-
-/**
- * Created by PhpStorm.
- * User: nghia
- * Date: 8/9/16
- * Time: 3:15 PM
- */
 class post_model extends base_model
 {
     private $table = "posts";
